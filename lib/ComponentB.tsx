@@ -8,9 +8,9 @@ const ComponentB = () => {
   const accessTokenData = useReactiveVar(accessTokenVar);
 
   return (
-    <Component1>
+    <>
         <div>Component B - Library B</div>
-        <div>ComponentB - Lib B {user}</div>
+        {/* <div>ComponentB - Lib B {user}</div> */}
         {/* <ComponentC /> */}
 
         <div>
@@ -21,7 +21,7 @@ const ComponentB = () => {
           <p>Role: {accessTokenData.claims.role}</p>
           <p>Sub: {accessTokenData.claims.sub}</p>
         </div>
-    </Component1>
+    </>
   )
 }
 
