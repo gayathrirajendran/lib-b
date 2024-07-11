@@ -1,6 +1,6 @@
 {
   "name": "z-library-b",
-  "version": "1.0.3",
+  "version": "1.0.9",
   "type": "module",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
@@ -16,9 +16,16 @@
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "z-library-a": "0.0.7"
+    "z-library-a": "0.0.16",
+    "@apollo/client": "3.10.8",
+    "graphql": "^16.9.0",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
+    "@apollo/client": "3.10.8",
+    "graphql": "^16.9.0",
+    "lodash": "^4.17.21",
+    "@types/lodash": "4.17.6",
     "@types/node": "^20.12.10",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
@@ -34,6 +41,6 @@
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
     "vite-plugin-dts": "^3.9.1",
-    "z-library-a": "^0.0.8"
+    "z-library-a": "^0.0.10"
   }
 }
