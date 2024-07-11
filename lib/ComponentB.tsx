@@ -1,10 +1,10 @@
-import { Component1, UserContext, accessTokenVar } from "z-library-a"
-import { useContext } from "react"
+import { accessTokenVar } from "z-library-a"
+// import { useContext } from "react"
 import { useReactiveVar } from "@apollo/client";
 
 
 const ComponentB = () => {
-  const user = useContext(UserContext);
+  // const user = useContext(UserContext);
   const accessTokenData = useReactiveVar(accessTokenVar);
 
   return (
