@@ -16,7 +16,7 @@
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "z-library-a": "0.0.16",
+    "z-library-a": "0.0.17",
     "@apollo/client": "3.10.8",
     "graphql": "^16.9.0",
     "lodash": "^4.17.21"
